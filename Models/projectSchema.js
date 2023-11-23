@@ -25,6 +25,10 @@ const projectSchema = new mongoose.Schema({
     projectImage:{
         type:String,
         required:true
+    },
+    userId:{
+        type:String,
+        required:true
     }
 })
 
